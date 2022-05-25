@@ -1,0 +1,58 @@
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'fredoka',sans-serif;
+    margin: 0 auto;
+    width: 70%;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color:violet;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+
+.descrizione {
+    color: black;
+    text-align: center;
+    font-family: 'fredoka',sans-serif;
+    margin-bottom: 40px;
+}
+.flex-container{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.item{
+    background-color: black;
+    display:flex;
+    width: 32%;
+    color: white;
+    box-shadow: 5px 10px 18px #958f8f;
+    
+}
+
+.item img {
+    height: 100px;
+}
+.testo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.email {
+    color:#29b5cb
+}
